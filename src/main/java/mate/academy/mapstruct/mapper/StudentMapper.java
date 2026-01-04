@@ -1,12 +1,10 @@
 package mate.academy.mapstruct.mapper;
 
 import java.util.Collections;
-import java.util.List;
 import java.util.stream.Collectors;
 import mate.academy.mapstruct.dto.student.CreateStudentRequestDto;
 import mate.academy.mapstruct.dto.student.StudentDto;
 import mate.academy.mapstruct.dto.student.StudentWithoutSubjectsDto;
-import mate.academy.mapstruct.model.Group;
 import mate.academy.mapstruct.model.Student;
 import mate.academy.mapstruct.model.Subject;
 import org.mapstruct.Mapper;
